@@ -19,5 +19,6 @@ module.exports = function (eleventyConfig) {
       input: "source",
       output: "build",
     },
+    pathPrefix: "/epodivilov.github.dev",
   };
 };

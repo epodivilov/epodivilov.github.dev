@@ -1,0 +1,23 @@
+---
+title: Sketches
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Sketches
+  order: 2
+---
+
+<h1>Sketches</h1>
+{% set sketches = collections.sketches %}
+<ol reversed class="postlist" style="counter-reset: start-from {{ (sketchesCounter or sketches.length) + 1 }}">
+  {% for post in sketches | reverse %}
+    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+      <a href="{{ post.url | url }}" class="postlist-link">
+        {% if post.data.title %}
+          {{ post.data.title }}
+        {% else %}
+          <code>{{ post.url }}</code>
+        {% endif %}
+      </a>
+    </li>
+  {% endfor %}
+</ol>

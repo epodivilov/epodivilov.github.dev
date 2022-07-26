@@ -1,0 +1,24 @@
+{
+  "name": "epodivilov.github.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epodivilov/epodivilov.github.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epodivilov/epodivilov.github.dev/issues"
+  },
+  "homepage": "https://github.com/epodivilov/epodivilov.github.dev#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}

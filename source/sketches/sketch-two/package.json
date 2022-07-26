@@ -1,0 +1,29 @@
+{
+  "name": "sketch-two",
+  "version": "1.0.0",
+  "description": "--- title: This is my second sketch. description: This is a sketch on My Blog about agile frameworks. date: 2018-05-05 tags: sketches layout: layouts/base.njk permalink: /sketches/sketch-two/ ---",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build --no-source-maps --dist-dir ./demo --public-url ./",
+    "start": "parcel --dist-dir ./demo && rm -rf ./demo",
+    "cleanup": "rm -rf ./demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epodivilov/epodivilov.github.dev.git"
+  },
+  "author": "Evgeniy Podivilov <evgeniy.podivilov@gmail.com> (https://twitter.com/senior_idealist)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epodivilov/epodivilov.github.dev/issues"
+  },
+  "homepage": "https://github.com/epodivilov/epodivilov.github.dev#readme",
+  "dependencies": {
+    "canvas-sketch": "^0.7.5",
+    "tweakpane": "^3.1.0"
+  },
+  "devDependencies": {
+    "@tweakpane/core": "^1.1.0",
+    "parcel": "^2.6.2"
+  }
+}

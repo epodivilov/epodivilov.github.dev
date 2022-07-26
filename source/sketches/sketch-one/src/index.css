@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+.embedded .github-corner {
+  display: none;
+}
+
 .octo-arm {
   transform-origin: 130px 106px;
 }
@@ -38,5 +42,7 @@ body .tp-dfwv {
   min-width: 256px;
 }
 
-
-/*# sourceMappingURL=src.30f726c3.css.map */
+canvas {
+  width: 100%;
+  height: 100%;
+}

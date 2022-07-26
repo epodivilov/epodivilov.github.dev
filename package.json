@@ -20,5 +20,8 @@
   "homepage": "https://github.com/epodivilov/epodivilov.github.dev#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
-  }
+  },
+  "workspaces": [
+    "source/sketches/*"
+  ]
 }

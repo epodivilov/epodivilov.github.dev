@@ -1,6 +1,6 @@
 /** @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig */
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./source/**/demo/*");
+  eleventyConfig.addPassthroughCopy("./source/**/demo/**");
   // config.addPassthroughCopy("./source/**/img/*");
 
   /* eleventyConfig.addFilter("readableDate", (locale, dateObj) => {
